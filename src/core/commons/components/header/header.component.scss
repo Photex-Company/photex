@@ -1,0 +1,56 @@
+.menu-btn {
+  background-color: Transparent;
+  font-size: 30px;
+  cursor: pointer;
+  color: #a7a9ac;
+  left: 0;
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+
+.sidebar-button {
+  height: 50px;
+}
+
+.navbar {
+  height: 90px;
+  background-color: rgb(56, 13, 13);
+  padding-left: 5px;
+  color: white;
+  a.dropdown-item {
+    cursor: pointer;
+  }
+}
+
+.navbar-brand {
+  margin-left: 10px;
+  font-size: 28px;
+}
+
+.navbar-nav {
+  padding-top: 10px;
+}
+
+div.logo-container {
+  position: relative;
+  transform: scale(0.4);
+  transform-origin: 27px 55px;
+}
+
+.navbar .right {
+  margin-left: auto;
+}
+
+.navbar #right {
+  margin-right: auto;
+}
+
+@keyframes moveX {
+  from {
+    background-position-y: 3240px;
+  }
+  to {
+    background-position-y: 0px;
+  }
+}

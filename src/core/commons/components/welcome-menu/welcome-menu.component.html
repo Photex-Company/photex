@@ -1,0 +1,7 @@
+<button mat-button type="button" [matMenuTriggerFor]="helloMenu">
+    Hello {{ name }}
+</button>
+
+<mat-menu #helloMenu="matMenu">
+    <button mat-menu-item (click)="logout()">Logout</button>
+</mat-menu>

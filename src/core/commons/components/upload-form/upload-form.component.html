@@ -1,0 +1,21 @@
+<p>upload-form works!</p>
+
+<div *ngIf="currentUpload">
+    nanaana
+
+</div>
+
+<div class="box">
+    <h2> Drop File</h2>
+    <div class="dropzone" 
+    appFileDrop 
+    (filesDropped)="handleDrop($event)" 
+    (filesHovered)="dropzoneState($event)"
+    [ngClass]="{'active': dropzoneActive}">
+
+    <mat-icon>cloud_upload</mat-icon>
+
+    </div>
+
+
+</div>

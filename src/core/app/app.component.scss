@@ -1,0 +1,55 @@
+@import '../../styles/abstract/variables';
+
+#FullPage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+app-header,
+app-sidebar {
+  z-index: 10;
+}
+
+#container {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  overflow-y: hidden;
+}
+
+#content {
+  overflow-y: auto;
+  padding: 30px;
+  width: 100%;
+  background-color: $background;
+}
+
+#content.login-form {
+  background-size: cover;
+}
+
+.menu-option {
+  padding: 8px 32px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #111111;
+  display: block;
+}
+
+.menu-option:hover {
+  color: #919191;
+}
+
+.closebtn {
+  color: #111111;
+  text-decoration: none;
+  top: 0;
+  font-size: 36px;
+  margin-left: 85%;
+  outline: none;
+}
+
+.mat-sidenav {
+  width: auto;
+}
