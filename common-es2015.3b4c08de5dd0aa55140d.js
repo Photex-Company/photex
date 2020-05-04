@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{"6k0h":function(n,o,t){"use strict";t.d(o,"a",(function(){return e}));var r=t("ofXK"),c=t("fXoL");let e=(()=>{class n{}return n.\u0275mod=c.Kb({type:n}),n.\u0275inj=c.Jb({factory:function(o){return new(o||n)},imports:[[r.c]]}),n})()}}]);
